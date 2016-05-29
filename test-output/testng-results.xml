@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1430" started-at="2016-05-29T05:06:05Z" finished-at="2016-05-29T05:06:06Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="Login_Scenario_TC.Valid_login_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.Login_Scenario_TC@412739]" name="Valid_login_Test" class="testscripts.Login_Scenario_TC"/>
+      </group> <!-- Smoke -->
+      <group name="Regression">
+        <method signature="Login_Scenario_TC.Invalid_login_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.Login_Scenario_TC@412739]" name="Invalid_login_Test" class="testscripts.Login_Scenario_TC"/>
+        <method signature="Login_Scenario_TC.Valid_login_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.Login_Scenario_TC@412739]" name="Valid_login_Test" class="testscripts.Login_Scenario_TC"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Default test" duration-ms="1430" started-at="2016-05-29T05:06:05Z" finished-at="2016-05-29T05:06:06Z">
+      <class name="testscripts.Login_Scenario_TC">
+        <test-method status="FAIL" signature="launchbrowser()[pri:0, instance:testscripts.Login_Scenario_TC@412739]" name="launchbrowser" is-config="true" duration-ms="0" started-at="2016-05-29T10:36:06Z" finished-at="2016-05-29T10:36:06Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\JavaWorkspace_2016\April_2016_batch\April2016batch\src\test\resources\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\JavaWorkspace_2016\April_2016_batch\April2016batch\src\test\resources\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:197)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:290)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at generic.Base_Class.launchbrowser(Base_Class.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="SKIP" signature="Invalid_login_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.Login_Scenario_TC@412739]" name="Invalid_login_Test" duration-ms="1" started-at="2016-05-29T10:36:06Z" data-provider="Invalidlogin_DP" finished-at="2016-05-29T10:36:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Raje]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ghagh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sorry..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_login_Test -->
+        <test-method status="SKIP" signature="tear_down()[pri:0, instance:testscripts.Login_Scenario_TC@412739]" name="tear_down" is-config="true" duration-ms="0" started-at="2016-05-29T10:36:06Z" finished-at="2016-05-29T10:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="SKIP" signature="launchbrowser()[pri:0, instance:testscripts.Login_Scenario_TC@412739]" name="launchbrowser" is-config="true" duration-ms="0" started-at="2016-05-29T10:36:06Z" finished-at="2016-05-29T10:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="SKIP" signature="Invalid_login_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.Login_Scenario_TC@412739]" name="Invalid_login_Test" duration-ms="2" started-at="2016-05-29T10:36:06Z" data-provider="Invalidlogin_DP" finished-at="2016-05-29T10:36:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Raje]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[learn123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sorry..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_login_Test -->
+        <test-method status="SKIP" signature="tear_down()[pri:0, instance:testscripts.Login_Scenario_TC@412739]" name="tear_down" is-config="true" duration-ms="0" started-at="2016-05-29T10:36:06Z" finished-at="2016-05-29T10:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="SKIP" signature="launchbrowser()[pri:0, instance:testscripts.Login_Scenario_TC@412739]" name="launchbrowser" is-config="true" duration-ms="0" started-at="2016-05-29T10:36:06Z" finished-at="2016-05-29T10:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="SKIP" signature="Valid_login_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.Login_Scenario_TC@412739]" name="Valid_login_Test" duration-ms="1" started-at="2016-05-29T10:36:06Z" data-provider="validlogin_DP" finished-at="2016-05-29T10:36:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qtpworld2008@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[learn123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qtpworld2008 g]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid_login_Test -->
+        <test-method status="SKIP" signature="tear_down()[pri:0, instance:testscripts.Login_Scenario_TC@412739]" name="tear_down" is-config="true" duration-ms="0" started-at="2016-05-29T10:36:06Z" finished-at="2016-05-29T10:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- testscripts.Login_Scenario_TC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
